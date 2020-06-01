@@ -1,0 +1,2043 @@
+EESchema Schematic File Version 4
+LIBS:omega-dock-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45_Amphenol_RJMG1BD3B8K1ANR J5
+U 1 1 5D6A37A4
+P 10000 2250
+F 0 "J5" H 10000 2975 50  0000 C CNN
+F 1 "RJ45_Amphenol_RJMG1BD3B8K1ANR" H 10000 2884 50  0000 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_RJMG1BD3B8K1ANR" H 10000 2950 50  0001 C CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/Drawings/AC/RJMG1BD3B8K1ANR.PDF" H 10000 3050 50  0001 C CNN
+	1    10000 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_USB-DVI-HDMI-Connectors:UE27AC54100 J2
+U 1 1 5D6A58CF
+P 1125 1700
+F 0 "J2" H 1000 1700 60  0000 R CNN
+F 1 "UE27AC54100" H 1350 2125 60  0000 R CNN
+F 2 "digikey-footprints:USB_A_Female_UE27AC54100" H 1325 1900 60  0001 L CNN
+F 3 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 1325 2000 60  0001 L CNN
+F 4 "UE27AC54100-ND" H 1325 2100 60  0001 L CNN "Digi-Key_PN"
+F 5 "UE27AC54100" H 1325 2200 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1325 2300 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1325 2400 60  0001 L CNN "Family"
+F 8 "https://www.amphenolcanada.com/ProductSearch/drawings/AC/UE27ACX4X0X.pdf" H 1325 2500 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-commercial-products/UE27AC54100/UE27AC54100-ND/1972253" H 1325 2600 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 TYPEA 4POS R/A" H 1325 2700 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (Commercial Products)" H 1325 2800 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1325 2900 60  0001 L CNN "Status"
+	1    1125 1700
+	1    0    0    1   
+$EndComp
+$Comp
+L S_LED:FYLS-0603GD D3
+U 1 1 5D6A8DB2
+P 10325 5625
+F 0 "D3" V 10279 5773 50  0000 L CNN
+F 1 "FYLS-0603GD" V 10370 5773 50  0000 L CNN
+F 2 "PCB_Footprints:LED_0603_1" H 11225 6125 50  0001 C CNN
+F 3 "http://www.foryard-led.ru/pdf/fyls-0603gd.pdf" H 11635 6265 50  0001 C CNN
+F 4 "FORYARD OPTOELECTRONICS" H 11210 6475 50  0001 C CNN "Manufacturer"
+F 5 "FYLS-0603GD" H 10990 6370 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 10895 6670 50  0001 C CNN "Vendor"
+F 7 "00-00055963" H 10965 6780 50  0001 C CNN "VPN"
+F 8 "Active" H 10805 6570 50  0001 C CNN "Status"
+F 9 "LED Yellow Green 0603 30mA" H 11125 7025 50  0001 C CNN "Description"
+	1    10325 5625
+	0    1    1    0   
+$EndComp
+$Comp
+L S_Capacitors:100n_0603_1 C6
+U 1 1 5D6A9C2F
+P 7700 5600
+F 0 "C6" H 7815 5646 50  0000 L CNN
+F 1 "100n_0603_1" H 8100 5550 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 8600 6100 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 9010 6240 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 8585 6450 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104KB8NNNC" H 8365 6345 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8270 6645 50  0001 C CNN "Vendor"
+F 7 "42147" H 8340 6755 50  0001 C CNN "VPN"
+F 8 "Active" H 8180 6545 50  0001 C CNN "Status"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 8500 7000 50  0001 C CNN "Description"
+F 10 "100n" H 7815 5555 50  0000 L CNN "RValue"
+	1    7700 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Capacitors:1u_0603_1 C9
+U 1 1 5D6AAD01
+P 9250 1050
+F 0 "C9" H 9365 1096 50  0000 L CNN
+F 1 "1u_0603_1" H 9650 1000 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 10150 1550 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2019/06/18/CL10B105KO8NNNC-19.pdf" H 10560 1690 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 10135 1900 50  0001 C CNN "Manufacturer"
+F 5 "CL10B105KO8NNNC" H 9915 1795 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 9820 2095 50  0001 C CNN "Vendor"
+F 7 "54673" H 9890 2205 50  0001 C CNN "VPN"
+F 8 "Active" H 9730 1995 50  0001 C CNN "Status"
+F 9 "CAP CER 1UF 16V X7R 0603" H 10050 2450 50  0001 C CNN "Description"
+F 10 "1u" H 9365 1005 50  0000 L CNN "RValue"
+	1    9250 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Capacitors:10u_0603_1 C10
+U 1 1 5D6AB758
+P 9300 5600
+F 0 "C10" H 9415 5646 50  0000 L CNN
+F 1 "10u_0603_1" H 9700 5550 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 10200 6100 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL10A106MQ8NNNC.pdf" H 10610 6240 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 10185 6450 50  0001 C CNN "Manufacturer"
+F 5 "CL10A106MQ8NNNC" H 9965 6345 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 9870 6645 50  0001 C CNN "Vendor"
+F 7 "72178" H 9940 6755 50  0001 C CNN "VPN"
+F 8 "Active" H 9780 6545 50  0001 C CNN "Status"
+F 9 "CAP CER 10UF 6.3V X5R 0603" H 10100 7000 50  0001 C CNN "Description"
+F 10 "10u" H 9415 5555 50  0000 L CNN "RValue"
+	1    9300 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Resistors:470R_0603_1 R12
+U 1 1 5D6ADE6F
+P 10325 5125
+F 0 "R12" V 10279 5193 50  0000 L CNN
+F 1 "470R_0603_1" H 10325 4975 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 11225 5625 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 11635 5765 50  0001 C CNN
+F 4 "Hitano" H 11210 5975 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 10990 5870 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 10895 6170 50  0001 C CNN "Vendor"
+F 7 "4687" H 10965 6280 50  0001 C CNN "VPN"
+F 8 "Active" H 10805 6070 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 11125 6525 50  0001 C CNN "Description"
+F 10 "470" V 10370 5193 50  0000 L CNN "RValue"
+	1    10325 5125
+	0    1    1    0   
+$EndComp
+$Comp
+L S_IC:LD1117S33TR U3
+U 1 1 5D6AED1D
+P 8500 5450
+F 0 "U3" H 8525 5865 50  0000 C CNN
+F 1 "LD1117S33TR" H 8525 5774 50  0000 C CNN
+F 2 "PCB_Footprints:SOT-223" H 9400 5950 50  0001 C CNN
+F 3 "https://www.st.com/content/ccc/resource/technical/document/datasheet/99/3b/7d/91/91/51/4b/be/CD00000544.pdf/files/CD00000544.pdf/jcr:content/translations/en.CD00000544.pdf" H 9810 6090 50  0001 C CNN
+F 4 "STMicroelectronics" H 9385 6300 50  0001 C CNN "Manufacturer"
+F 5 "LD1117S33TR" H 9165 6195 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 9070 6495 50  0001 C CNN "Vendor"
+F 7 "00-00022371" H 9140 6605 50  0001 C CNN "VPN"
+F 8 "Active" H 8980 6395 50  0001 C CNN "Status"
+F 9 "IC REG LINEAR 3.3V 800MA SOT223 " H 9300 6850 50  0001 C CNN "Description"
+	1    8500 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Switches:TACTM-24N-F SW2
+U 1 1 5D6B1209
+P 1200 3150
+F 0 "SW2" H 1200 3435 50  0000 C CNN
+F 1 "TACTM-24N-F" H 1200 3344 50  0000 C CNN
+F 2 "PCB_Footprints:PUSHB_TL3300DF260Q" H 2300 3700 50  0001 C CNN
+F 3 "https://en.ninigi.com/product/tactm-24n-f/pdf" H 2400 3800 50  0001 C CNN
+F 4 "NINIGI" H 1600 3900 50  0001 C CNN "Manufacturer"
+F 5 "TACTM-24N-F" H 1750 4000 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 1700 4100 50  0001 C CNN "Vendor"
+F 7 "00-00041368" H 1750 4200 50  0001 C CNN "VPN"
+F 8 "Active" H 1600 4300 50  0001 C CNN "Status"
+F 9 "SWITCH TACTILE SPST-NO 0.05A 12V" H 1750 4400 50  0001 C CNN "Description"
+	1    1200 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Fuses:MF-NSMF110 F1
+U 1 1 5D6B3610
+P 2175 925
+F 0 "F1" H 2175 725 50  0000 C CNN
+F 1 "MF-NSMF110" H 2175 775 50  0001 C CNN
+F 2 "PCB_Footprints:Fuse_BOURNS_MF-NSMF" H 3075 1425 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/mfnsmf.pdf" H 3485 1565 50  0001 C CNN
+F 4 "Bourns" H 3060 1775 50  0001 C CNN "Manufacturer"
+F 5 "MF-NSMF110-2" H 2840 1670 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 2745 1970 50  0001 C CNN "Vendor"
+F 7 "00-00053359" H 2815 2080 50  0001 C CNN "VPN"
+F 8 "Active" H 2655 1870 50  0001 C CNN "Status"
+F 9 "PTC RESET FUSE 6V 1.1A 1206" H 2975 2325 50  0001 C CNN "Description"
+F 10 "1.1A" H 2175 816 50  0000 C CNN "RValue"
+	1    2175 925 
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10325 5275 10325 5425
+Wire Wire Line
+	10325 5825 10325 5925
+$Comp
+L power:GND #PWR0101
+U 1 1 5D6C0D6F
+P 10325 5925
+F 0 "#PWR0101" H 10325 5675 50  0001 C CNN
+F 1 "GND" H 10330 5752 50  0000 C CNN
+F 2 "" H 10325 5925 50  0001 C CNN
+F 3 "" H 10325 5925 50  0001 C CNN
+	1    10325 5925
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0102
+U 1 1 5D6C15C5
+P 10325 4925
+F 0 "#PWR0102" H 10325 4775 50  0001 C CNN
+F 1 "+3.3V" H 10340 5098 50  0000 C CNN
+F 2 "" H 10325 4925 50  0001 C CNN
+F 3 "" H 10325 4925 50  0001 C CNN
+	1    10325 4925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10325 4925 10325 4975
+Wire Wire Line
+	1400 3150 1450 3150
+Wire Wire Line
+	1400 3250 1450 3250
+Wire Wire Line
+	1450 3250 1450 3150
+Connection ~ 1450 3150
+Wire Wire Line
+	1000 3150 950  3150
+Wire Wire Line
+	950  3150 950  3250
+Wire Wire Line
+	1000 3250 950  3250
+$Comp
+L power:GND #PWR0103
+U 1 1 5D6C90A1
+P 1950 3625
+F 0 "#PWR0103" H 1950 3375 50  0001 C CNN
+F 1 "GND" H 2100 3550 50  0000 C CNN
+F 2 "" H 1950 3625 50  0001 C CNN
+F 3 "" H 1950 3625 50  0001 C CNN
+	1    1950 3625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9100 2150 9000 2150
+Wire Wire Line
+	9000 2150 9000 1850
+Wire Wire Line
+	9250 900  9000 900 
+Connection ~ 9000 900 
+$Comp
+L power:GND #PWR0104
+U 1 1 5D6E41CB
+P 10000 3000
+F 0 "#PWR0104" H 10000 2750 50  0001 C CNN
+F 1 "GND" H 10005 2827 50  0000 C CNN
+F 2 "" H 10000 3000 50  0001 C CNN
+F 3 "" H 10000 3000 50  0001 C CNN
+	1    10000 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 5D6E4576
+P 9250 1250
+F 0 "#PWR0105" H 9250 1000 50  0001 C CNN
+F 1 "GND" H 9255 1077 50  0000 C CNN
+F 2 "" H 9250 1250 50  0001 C CNN
+F 3 "" H 9250 1250 50  0001 C CNN
+	1    9250 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 5D6E48C9
+P 9300 5800
+F 0 "#PWR0106" H 9300 5550 50  0001 C CNN
+F 1 "GND" H 9305 5627 50  0000 C CNN
+F 2 "" H 9300 5800 50  0001 C CNN
+F 3 "" H 9300 5800 50  0001 C CNN
+	1    9300 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 5D6E4F08
+P 7700 5800
+F 0 "#PWR0107" H 7700 5550 50  0001 C CNN
+F 1 "GND" H 7705 5627 50  0000 C CNN
+F 2 "" H 7700 5800 50  0001 C CNN
+F 3 "" H 7700 5800 50  0001 C CNN
+	1    7700 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0108
+U 1 1 5D6E5281
+P 8500 5800
+F 0 "#PWR0108" H 8500 5550 50  0001 C CNN
+F 1 "GND" H 8505 5627 50  0000 C CNN
+F 2 "" H 8500 5800 50  0001 C CNN
+F 3 "" H 8500 5800 50  0001 C CNN
+	1    8500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9250 1200 9250 1250
+Wire Wire Line
+	10000 2950 10000 3000
+Wire Wire Line
+	7700 5750 7700 5800
+Wire Wire Line
+	8500 5750 8500 5800
+Wire Wire Line
+	9300 5750 9300 5800
+Wire Wire Line
+	8050 5300 7700 5300
+Wire Wire Line
+	7700 5300 7700 5450
+Wire Wire Line
+	7700 5300 7500 5300
+Connection ~ 7700 5300
+Wire Wire Line
+	9000 5400 9100 5400
+Wire Wire Line
+	9100 5400 9100 5300
+Wire Wire Line
+	9100 5300 9000 5300
+Wire Wire Line
+	9100 5300 9300 5300
+Connection ~ 9100 5300
+Wire Wire Line
+	9300 5300 9300 5450
+Connection ~ 9300 5300
+Wire Wire Line
+	9300 5300 9700 5300
+$Comp
+L power:+3.3V #PWR0109
+U 1 1 5D704D0E
+P 9700 5250
+F 0 "#PWR0109" H 9700 5100 50  0001 C CNN
+F 1 "+3.3V" H 9715 5423 50  0000 C CNN
+F 2 "" H 9700 5250 50  0001 C CNN
+F 3 "" H 9700 5250 50  0001 C CNN
+	1    9700 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 5250 9700 5300
+Wire Wire Line
+	2375 925  2375 850 
+$Comp
+L power:+5V #PWR0110
+U 1 1 5D716DDB
+P 7500 5250
+F 0 "#PWR0110" H 7500 5100 50  0001 C CNN
+F 1 "+5V" H 7515 5423 50  0000 C CNN
+F 2 "" H 7500 5250 50  0001 C CNN
+F 3 "" H 7500 5250 50  0001 C CNN
+	1    7500 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 5250 7500 5300
+$Comp
+L power:+5V #PWR0111
+U 1 1 5D719574
+P 2375 850
+F 0 "#PWR0111" H 2375 700 50  0001 C CNN
+F 1 "+5V" H 2390 1023 50  0000 C CNN
+F 2 "" H 2375 850 50  0001 C CNN
+F 3 "" H 2375 850 50  0001 C CNN
+	1    2375 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 1700 2025 1700
+Wire Wire Line
+	2025 1700 2025 1450
+Wire Wire Line
+	2025 1450 2425 1450
+Wire Wire Line
+	1425 1800 2025 1800
+Wire Wire Line
+	2025 1800 2025 2050
+Wire Wire Line
+	2025 2050 2425 2050
+$Comp
+L power:GND #PWR0112
+U 1 1 5D72E89F
+P 1575 2150
+F 0 "#PWR0112" H 1575 1900 50  0001 C CNN
+F 1 "GND" H 1580 1977 50  0000 C CNN
+F 2 "" H 1575 2150 50  0001 C CNN
+F 3 "" H 1575 2150 50  0001 C CNN
+	1    1575 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0113
+U 1 1 5D72F090
+P 1250 1325
+F 0 "#PWR0113" H 1250 1075 50  0001 C CNN
+F 1 "GND" H 1255 1152 50  0000 C CNN
+F 2 "" H 1250 1325 50  0001 C CNN
+F 3 "" H 1250 1325 50  0001 C CNN
+	1    1250 1325
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR0114
+U 1 1 5D72F543
+P 2375 1750
+F 0 "#PWR0114" H 2375 1500 50  0001 C CNN
+F 1 "GND" V 2380 1622 50  0000 R CNN
+F 2 "" H 2375 1750 50  0001 C CNN
+F 3 "" H 2375 1750 50  0001 C CNN
+	1    2375 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2375 1750 2425 1750
+Wire Wire Line
+	1250 1325 1250 1375
+Wire Wire Line
+	1575 1900 1575 2150
+Wire Wire Line
+	1425 1900 1575 1900
+$Comp
+L power:+5V #PWR0115
+U 1 1 5D7542DD
+P 3525 1750
+F 0 "#PWR0115" H 3525 1600 50  0001 C CNN
+F 1 "+5V" V 3540 1878 50  0000 L CNN
+F 2 "" H 3525 1750 50  0001 C CNN
+F 3 "" H 3525 1750 50  0001 C CNN
+	1    3525 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3525 1750 3425 1750
+$Comp
+L dk_TVS-Diodes:USBLC6-2SC6 D2
+U 1 1 5D6A7320
+P 2925 1750
+F 0 "D2" H 2925 2437 60  0000 C CNN
+F 1 "USBLC6-2SC6" H 2925 2331 60  0000 C CNN
+F 2 "digikey-footprints:SOT23-6L" H 3125 1950 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 3125 2050 60  0001 L CNN
+F 4 "497-5235-1-ND" H 3125 2150 60  0001 L CNN "Digi-Key_PN"
+F 5 "USBLC6-2SC6" H 3125 2250 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 3125 2350 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 3125 2450 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 3125 2550 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688" H 3125 2650 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 5.25V 17V SOT23-6" H 3125 2750 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 3125 2850 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 3125 2950 60  0001 L CNN "Status"
+	1    2925 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3425 1450 3850 1450
+Wire Wire Line
+	3850 1450 3850 1700
+Wire Wire Line
+	3425 2050 3850 2050
+Wire Wire Line
+	3850 2050 3850 1800
+$Comp
+L S_IC:CH340G U1
+U 1 1 5D77EAEE
+P 4450 6550
+F 0 "U1" H 4450 7365 50  0000 C CNN
+F 1 "CH340G" H 4450 7274 50  0000 C CNN
+F 2 "PCB_Footprints:SOIC-16" H 5900 7050 50  0001 C CNN
+F 3 "www.datasheet5.com/pdf-local-2195953" H 6250 7200 50  0001 C CNN
+F 4 "WCH" H 5550 7400 50  0001 C CNN "Manufacturer"
+F 5 "CH340G" H 5550 7300 50  0001 C CNN "MPN"
+F 6 "Aliexpress" H 5450 7600 50  0001 C CNN "Vendor"
+F 7 "https://www.aliexpress.com/item/3pcs-Original-New-WCH-CH340G-SOP-16-USB-to-serial-chip/32771923603.html" H 7500 7700 50  0001 C CNN "VPN"
+F 8 "Active" H 5500 7500 50  0001 C CNN "Status"
+F 9 "USB UART CONVERTER 16SOIC" H 5800 7850 50  0001 C CNN "Description"
+	1    4450 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Capacitors:22p_0603_1 C4
+U 1 1 5D7810E2
+P 2950 5875
+F 0 "C4" V 2775 5975 50  0000 L CNN
+F 1 "22p_0603_1" H 3350 5825 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 3850 6375 50  0001 C CNN
+F 3 "www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2016%2F%2F08%2F%2F18&fileName=S_CL10C220JB8NNNL.pdf" H 4260 6515 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3835 6725 50  0001 C CNN "Manufacturer"
+F 5 "CL10C220JB8NNN" H 3615 6620 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 3520 6920 50  0001 C CNN "Vendor"
+F 7 "00-00034393" H 3590 7030 50  0001 C CNN "VPN"
+F 8 "Active" H 3430 6820 50  0001 C CNN "Status"
+F 9 "CAP CER 22pF 50V NPO 0603" H 3750 7275 50  0001 C CNN "Description"
+F 10 "22" V 2775 5825 50  0000 L CNN "RValue"
+	1    2950 5875
+	0    1    1    0   
+$EndComp
+$Comp
+L S_Resistors:470R_0603_1 R4
+U 1 1 5D781943
+P 5600 6000
+F 0 "R4" H 5600 5795 50  0000 C CNN
+F 1 "470R_0603_1" H 5600 5850 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 6500 6500 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 6910 6640 50  0001 C CNN
+F 4 "Hitano" H 6485 6850 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 6265 6745 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 6170 7045 50  0001 C CNN "Vendor"
+F 7 "4687" H 6240 7155 50  0001 C CNN "VPN"
+F 8 "Active" H 6080 6945 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 6400 7400 50  0001 C CNN "Description"
+F 10 "470" H 5600 5886 50  0000 C CNN "RValue"
+	1    5600 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L S_Capacitors:22p_0603_1 C5
+U 1 1 5D7841D5
+P 2950 6250
+F 0 "C5" V 3075 6350 50  0000 L CNN
+F 1 "22p_0603_1" H 3350 6200 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 3850 6750 50  0001 C CNN
+F 3 "www.samsungsem.com/global/front/downloadcms.do?path=%2F%2Fglobal%2F%2Fsupport%2F%2Fproduct-search%2F%2Fmlcc%2F%2F__icsFiles%2F%2Fafieldfile%2F%2F2016%2F%2F08%2F%2F18&fileName=S_CL10C220JB8NNNL.pdf" H 4260 6890 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 3835 7100 50  0001 C CNN "Manufacturer"
+F 5 "CL10C220JB8NNN" H 3615 6995 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 3520 7295 50  0001 C CNN "Vendor"
+F 7 "00-00034393" H 3590 7405 50  0001 C CNN "VPN"
+F 8 "Active" H 3430 7195 50  0001 C CNN "Status"
+F 9 "CAP CER 22pF 50V NPO 0603" H 3750 7650 50  0001 C CNN "Description"
+F 10 "22" V 3100 6200 50  0000 L CNN "RValue"
+	1    2950 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2750 6250 2800 6250
+Wire Wire Line
+	2800 5875 2750 5875
+Wire Wire Line
+	1225 6950 1375 6950
+Wire Wire Line
+	1375 6950 1375 7050
+Wire Wire Line
+	1225 7050 1375 7050
+Connection ~ 1375 7050
+Wire Wire Line
+	1375 7050 1375 7550
+$Comp
+L power:GND #PWR0118
+U 1 1 5D7B6E68
+P 1375 7550
+F 0 "#PWR0118" H 1375 7300 50  0001 C CNN
+F 1 "GND" H 1525 7500 50  0000 C CNN
+F 2 "" H 1375 7550 50  0001 C CNN
+F 3 "" H 1375 7550 50  0001 C CNN
+	1    1375 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0119
+U 1 1 5D7B7306
+P 825 7550
+F 0 "#PWR0119" H 825 7300 50  0001 C CNN
+F 1 "GND" H 975 7500 50  0000 C CNN
+F 2 "" H 825 7550 50  0001 C CNN
+F 3 "" H 825 7550 50  0001 C CNN
+	1    825  7550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	825  7450 825  7550
+Wire Wire Line
+	1375 6650 1375 6125
+Wire Wire Line
+	1225 6650 1375 6650
+$Comp
+L power:+5V #PWR0120
+U 1 1 5D7C68A1
+P 1375 6125
+F 0 "#PWR0120" H 1375 5975 50  0001 C CNN
+F 1 "+5V" H 1390 6298 50  0000 C CNN
+F 2 "" H 1375 6125 50  0001 C CNN
+F 3 "" H 1375 6125 50  0001 C CNN
+	1    1375 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 5D7CCD09
+P 3650 7250
+F 0 "#PWR0121" H 3650 7000 50  0001 C CNN
+F 1 "GND" H 3650 7075 50  0000 C CNN
+F 2 "" H 3650 7250 50  0001 C CNN
+F 3 "" H 3650 7250 50  0001 C CNN
+	1    3650 7250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 7250 3650 7150
+Wire Wire Line
+	3650 7150 3700 7150
+Wire Wire Line
+	3700 6950 3650 6950
+Wire Wire Line
+	3650 6950 3650 6850
+Wire Wire Line
+	3700 6850 3650 6850
+Connection ~ 3650 6850
+Wire Wire Line
+	3650 6850 3650 6775
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 5D7EAD86
+P 3650 6775
+F 0 "#PWR0122" H 3650 6625 50  0001 C CNN
+F 1 "+3.3V" H 3665 6948 50  0000 C CNN
+F 2 "" H 3650 6775 50  0001 C CNN
+F 3 "" H 3650 6775 50  0001 C CNN
+	1    3650 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L dk_TVS-Diodes:USBLC6-2SC6 D1
+U 1 1 5D7EC55D
+P 2400 7050
+F 0 "D1" H 2400 7737 60  0000 C CNN
+F 1 "USBLC6-2SC6" H 2400 7631 60  0000 C CNN
+F 2 "digikey-footprints:SOT23-6L" H 2600 7250 60  0001 L CNN
+F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 2600 7350 60  0001 L CNN
+F 4 "497-5235-1-ND" H 2600 7450 60  0001 L CNN "Digi-Key_PN"
+F 5 "USBLC6-2SC6" H 2600 7550 60  0001 L CNN "MPN"
+F 6 "Circuit Protection" H 2600 7650 60  0001 L CNN "Category"
+F 7 "TVS - Diodes" H 2600 7750 60  0001 L CNN "Family"
+F 8 "http://www.st.com/content/ccc/resource/technical/document/datasheet/06/1d/48/9c/6c/20/4a/b2/CD00050750.pdf/files/CD00050750.pdf/jcr:content/translations/en.CD00050750.pdf" H 2600 7850 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/stmicroelectronics/USBLC6-2SC6/497-5235-1-ND/1121688" H 2600 7950 60  0001 L CNN "DK_Detail_Page"
+F 10 "TVS DIODE 5.25V 17V SOT23-6" H 2600 8050 60  0001 L CNN "Description"
+F 11 "STMicroelectronics" H 2600 8150 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 2600 8250 60  0001 L CNN "Status"
+	1    2400 7050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1225 6750 1900 6750
+Wire Wire Line
+	1900 7350 1525 7350
+Wire Wire Line
+	1525 7350 1525 6850
+Wire Wire Line
+	1525 6850 1225 6850
+Wire Wire Line
+	2900 6750 3300 6750
+Wire Wire Line
+	3300 6750 3300 6350
+Wire Wire Line
+	3300 6350 3700 6350
+Wire Wire Line
+	3700 6450 3400 6450
+Wire Wire Line
+	3400 6450 3400 7350
+Wire Wire Line
+	3400 7350 2900 7350
+$Comp
+L power:+5V #PWR0123
+U 1 1 5D818317
+P 2975 7050
+F 0 "#PWR0123" H 2975 6900 50  0001 C CNN
+F 1 "+5V" V 2990 7178 50  0000 L CNN
+F 2 "" H 2975 7050 50  0001 C CNN
+F 3 "" H 2975 7050 50  0001 C CNN
+	1    2975 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2975 7050 2900 7050
+$Comp
+L power:GND #PWR0124
+U 1 1 5D81D9AD
+P 1825 7050
+F 0 "#PWR0124" H 1825 6800 50  0001 C CNN
+F 1 "GND" V 1825 6850 50  0000 C CNN
+F 2 "" H 1825 7050 50  0001 C CNN
+F 3 "" H 1825 7050 50  0001 C CNN
+	1    1825 7050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1825 7050 1900 7050
+$Comp
+L S_Resistors:470R_0603_1 R5
+U 1 1 5D83122E
+P 5600 6100
+F 0 "R5" H 5600 5925 50  0000 C CNN
+F 1 "470R_0603_1" H 5600 5950 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 6500 6600 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 6910 6740 50  0001 C CNN
+F 4 "Hitano" H 6485 6950 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 6265 6845 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 6170 7145 50  0001 C CNN "Vendor"
+F 7 "4687" H 6240 7255 50  0001 C CNN "VPN"
+F 8 "Active" H 6080 7045 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 6400 7500 50  0001 C CNN "Description"
+F 10 "470" H 5600 6000 50  0000 C CNN "RValue"
+	1    5600 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5750 6000 6425 6000
+Wire Wire Line
+	5750 6100 6425 6100
+Text Label 6425 6000 2    50   ~ 0
+OMEGA_UART_TX
+Text Label 6425 6100 2    50   ~ 0
+OMEGA_UART_RX
+$Comp
+L S_Connectors:PLS-06-S_1 J4
+U 1 1 5D6B5CBE
+P 6075 6700
+F 0 "J4" H 6150 6950 50  0000 L CNN
+F 1 "PLS-06-S_1" H 5925 6100 50  0000 L CNN
+F 2 "PCB_Footprints:PLS-06-S_1" H 6975 7200 50  0001 C CNN
+F 3 "http://www.kosmodrom.com.ua/pdf/zl201.pdf" H 8225 7350 50  0001 C CNN
+F 4 "CONNFLY" H 6725 7550 50  0001 C CNN "Manufacturer"
+F 5 "ZL201-06G" H 6825 7450 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 6525 7750 50  0001 C CNN "Vendor"
+F 7 "00-00040625" H 6575 7850 50  0001 C CNN "VPN"
+F 8 "Active" H 6525 7650 50  0001 C CNN "Status"
+F 9 "CONN M HEADER 6 POS 2.54mm" H 6875 8000 50  0001 C CNN "Description"
+	1    6075 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 6900 5400 6900
+$Comp
+L power:GND #PWR0125
+U 1 1 5D87F8C9
+P 5800 6600
+F 0 "#PWR0125" H 5800 6350 50  0001 C CNN
+F 1 "GND" V 5805 6472 50  0000 R CNN
+F 2 "" H 5800 6600 50  0001 C CNN
+F 3 "" H 5800 6600 50  0001 C CNN
+	1    5800 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5800 6600 5875 6600
+NoConn ~ 5200 6400
+NoConn ~ 5200 6500
+NoConn ~ 5200 6600
+NoConn ~ 5200 6700
+NoConn ~ 5200 6800
+NoConn ~ 5200 6900
+NoConn ~ 5200 7150
+Text Label 4475 1800 2    50   ~ 0
+OMEGA_USB_D_P
+Text Label 4475 1700 2    50   ~ 0
+OMEGA_USB_D_N
+Wire Wire Line
+	3850 1700 4475 1700
+Wire Wire Line
+	4475 1800 3850 1800
+Text Label 1650 1800 0    50   ~ 0
+USB_D_P
+Text Label 1650 1700 0    50   ~ 0
+USB_D_N
+$Comp
+L power:VBUS #PWR0126
+U 1 1 5D8FF18B
+P 9000 850
+F 0 "#PWR0126" H 9000 700 50  0001 C CNN
+F 1 "VBUS" H 9015 1023 50  0000 C CNN
+F 2 "" H 9000 850 50  0001 C CNN
+F 3 "" H 9000 850 50  0001 C CNN
+	1    9000 850 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9000 850  9000 900 
+Wire Wire Line
+	5200 6000 5325 6000
+Wire Wire Line
+	5325 7000 5875 7000
+Wire Wire Line
+	5325 7000 5325 6000
+Connection ~ 5325 6000
+Wire Wire Line
+	5325 6000 5450 6000
+Wire Wire Line
+	5400 6900 5400 6100
+Wire Wire Line
+	5200 6100 5400 6100
+Connection ~ 5400 6100
+Wire Wire Line
+	5400 6100 5450 6100
+Wire Wire Line
+	5925 3875 6600 3875
+Wire Wire Line
+	5925 3775 6600 3775
+Text Label 6600 3875 2    50   ~ 0
+OMEGA_UART_TX
+Text Label 6600 3775 2    50   ~ 0
+OMEGA_UART_RX
+Wire Wire Line
+	5325 2825 5325 2875
+$Comp
+L power:VBUS #PWR0127
+U 1 1 5D90587E
+P 5325 2825
+F 0 "#PWR0127" H 5325 2675 50  0001 C CNN
+F 1 "VBUS" H 5375 3000 50  0000 C CNN
+F 2 "" H 5325 2825 50  0001 C CNN
+F 3 "" H 5325 2825 50  0001 C CNN
+	1    5325 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5125 2825 5125 2875
+$Comp
+L power:+3.3V #PWR0128
+U 1 1 5D751179
+P 5125 2825
+F 0 "#PWR0128" H 5125 2675 50  0001 C CNN
+F 1 "+3.3V" H 5100 3000 50  0000 C CNN
+F 2 "" H 5125 2825 50  0001 C CNN
+F 3 "" H 5125 2825 50  0001 C CNN
+	1    5125 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 5300 5225 5275
+$Comp
+L power:GND #PWR0129
+U 1 1 5D74E3BE
+P 5225 5300
+F 0 "#PWR0129" H 5225 5050 50  0001 C CNN
+F 1 "GND" H 5230 5127 50  0000 C CNN
+F 2 "" H 5225 5300 50  0001 C CNN
+F 3 "" H 5225 5300 50  0001 C CNN
+	1    5225 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCU_Module:Omega2+ U2
+U 1 1 5D6A30D9
+P 5225 4075
+F 0 "U2" H 5725 5225 50  0000 C CNN
+F 1 "Omega2+" H 5700 2925 50  0000 C CNN
+F 2 "Module:Onion_Omega2+" H 5225 2575 50  0001 C CNN
+F 3 "https://docs.onion.io/omega2-docs/omega2p.html" H 2025 2925 50  0001 C CNN
+	1    5225 4075
+	1    0    0    -1  
+$EndComp
+Text Label 3850 4875 0    50   ~ 0
+OMEGA_USB_D_N
+Wire Wire Line
+	4525 4875 3850 4875
+Wire Wire Line
+	5925 4475 6600 4475
+Wire Wire Line
+	5925 4375 6600 4375
+Text Label 6600 4475 2    50   ~ 0
+OMEGA_ETH_TX_P
+Text Label 6600 4375 2    50   ~ 0
+OMEGA_ETH_TX_N
+Wire Wire Line
+	5925 4675 6600 4675
+Wire Wire Line
+	5925 4575 6600 4575
+Text Label 6600 4675 2    50   ~ 0
+OMEGA_ETH_RX_P
+Text Label 6600 4575 2    50   ~ 0
+OMEGA_ETH_RX_N
+Text Label 7525 1750 0    50   ~ 0
+OMEGA_ETH_TX_P
+Text Label 7525 2050 0    50   ~ 0
+OMEGA_ETH_RX_P
+Text Label 7525 2250 0    50   ~ 0
+OMEGA_ETH_RX_N
+Wire Wire Line
+	5925 3575 6525 3575
+Text Label 6525 3575 2    50   ~ 0
+FW_RST
+Text Label 2350 3150 2    50   ~ 0
+FW_RST
+Wire Wire Line
+	9100 1850 9000 1850
+Connection ~ 9000 1850
+Wire Wire Line
+	9000 1850 9000 900 
+Text Label 7525 1950 0    50   ~ 0
+OMEGA_ETH_TX_N
+Wire Wire Line
+	7525 1950 8475 1950
+Wire Wire Line
+	7525 1750 8275 1750
+Wire Wire Line
+	7525 2250 8275 2250
+Wire Wire Line
+	8375 3075 8375 3125
+$Comp
+L power:GND #PWR0130
+U 1 1 5D6F1558
+P 8375 3125
+F 0 "#PWR0130" H 8375 2875 50  0001 C CNN
+F 1 "GND" H 8380 2952 50  0000 C CNN
+F 2 "" H 8375 3125 50  0001 C CNN
+F 3 "" H 8375 3125 50  0001 C CNN
+	1    8375 3125
+	1    0    0    -1  
+$EndComp
+Connection ~ 8375 2775
+Wire Wire Line
+	8275 2775 8375 2775
+Wire Wire Line
+	8275 2675 8275 2775
+Wire Wire Line
+	8475 2775 8375 2775
+Wire Wire Line
+	8475 2675 8475 2775
+$Comp
+L S_Resistors:49R9_0603_1 R11
+U 1 1 5D6F1547
+P 8475 2525
+F 0 "R11" V 8525 2675 50  0000 R CNN
+F 1 "49R9_0603_1" H 8475 2375 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 9375 3025 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 9785 3165 50  0001 C CNN
+F 4 "Hitano" H 9360 3375 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-49R9" H 9140 3270 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 9045 3570 50  0001 C CNN "Vendor"
+F 7 "26011" H 9115 3680 50  0001 C CNN "VPN"
+F 8 "Active" H 8955 3470 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 49.9 Ohm 100mW 50V" H 9275 3925 50  0001 C CNN "Description"
+F 10 "49R9" V 8425 2775 50  0000 R CNN "RValue"
+	1    8475 2525
+	0    1    1    0   
+$EndComp
+$Comp
+L S_Resistors:49R9_0603_1 R7
+U 1 1 5D6F1536
+P 8275 2525
+F 0 "R7" V 8229 2593 50  0000 L CNN
+F 1 "49R9_0603_1" H 8275 2375 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 9175 3025 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 9585 3165 50  0001 C CNN
+F 4 "Hitano" H 9160 3375 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-49R9" H 8940 3270 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8845 3570 50  0001 C CNN "Vendor"
+F 7 "26011" H 8915 3680 50  0001 C CNN "VPN"
+F 8 "Active" H 8755 3470 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 49.9 Ohm 100mW 50V" H 9075 3925 50  0001 C CNN "Description"
+F 10 "49R9" V 8320 2593 50  0000 L CNN "RValue"
+	1    8275 2525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L S_Capacitors:100n_0603_1 C8
+U 1 1 5D6F1525
+P 8375 2925
+F 0 "C8" H 8490 2971 50  0000 L CNN
+F 1 "100n_0603_1" H 8775 2875 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 9275 3425 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 9685 3565 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9260 3775 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104KB8NNNC" H 9040 3670 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8945 3970 50  0001 C CNN "Vendor"
+F 7 "42147" H 9015 4080 50  0001 C CNN "VPN"
+F 8 "Active" H 8855 3870 50  0001 C CNN "Status"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 9175 4325 50  0001 C CNN "Description"
+F 10 "100n" H 8490 2880 50  0000 L CNN "RValue"
+	1    8375 2925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8375 950  8375 900 
+$Comp
+L power:GND #PWR0131
+U 1 1 5D6F0213
+P 8375 900
+F 0 "#PWR0131" H 8375 650 50  0001 C CNN
+F 1 "GND" H 8380 727 50  0000 C CNN
+F 2 "" H 8375 900 50  0001 C CNN
+F 3 "" H 8375 900 50  0001 C CNN
+	1    8375 900 
+	-1   0    0    1   
+$EndComp
+Connection ~ 8375 1250
+Wire Wire Line
+	8475 1250 8375 1250
+Wire Wire Line
+	8475 1350 8475 1250
+Wire Wire Line
+	8275 1250 8375 1250
+Wire Wire Line
+	8275 1350 8275 1250
+$Comp
+L S_Resistors:49R9_0603_1 R6
+U 1 1 5D6E7A33
+P 8275 1500
+F 0 "R6" V 8325 1650 50  0000 R CNN
+F 1 "49R9_0603_1" H 8275 1350 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 9175 2000 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 9585 2140 50  0001 C CNN
+F 4 "Hitano" H 9160 2350 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-49R9" H 8940 2245 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8845 2545 50  0001 C CNN "Vendor"
+F 7 "26011" H 8915 2655 50  0001 C CNN "VPN"
+F 8 "Active" H 8755 2445 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 49.9 Ohm 100mW 50V" H 9075 2900 50  0001 C CNN "Description"
+F 10 "49R9" V 8225 1750 50  0000 R CNN "RValue"
+	1    8275 1500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L S_Resistors:49R9_0603_1 R10
+U 1 1 5D6E6684
+P 8475 1500
+F 0 "R10" V 8429 1568 50  0000 L CNN
+F 1 "49R9_0603_1" H 8475 1350 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 9375 2000 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 9785 2140 50  0001 C CNN
+F 4 "Hitano" H 9360 2350 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-49R9" H 9140 2245 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 9045 2545 50  0001 C CNN "Vendor"
+F 7 "26011" H 9115 2655 50  0001 C CNN "VPN"
+F 8 "Active" H 8955 2445 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 49.9 Ohm 100mW 50V" H 9275 2900 50  0001 C CNN "Description"
+F 10 "49R9" V 8520 1568 50  0000 L CNN "RValue"
+	1    8475 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L S_Capacitors:100n_0603_1 C7
+U 1 1 5D6E5592
+P 8375 1100
+F 0 "C7" H 8490 1146 50  0000 L CNN
+F 1 "100n_0603_1" H 8775 1050 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 9275 1600 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 9685 1740 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 9260 1950 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104KB8NNNC" H 9040 1845 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8945 2145 50  0001 C CNN "Vendor"
+F 7 "42147" H 9015 2255 50  0001 C CNN "VPN"
+F 8 "Active" H 8855 2045 50  0001 C CNN "Status"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 9175 2500 50  0001 C CNN "Description"
+F 10 "100n" H 8490 1055 50  0000 L CNN "RValue"
+	1    8375 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 1650 8275 1750
+Connection ~ 8275 1750
+Wire Wire Line
+	8275 1750 9100 1750
+Wire Wire Line
+	8475 1650 8475 1950
+Connection ~ 8475 1950
+Wire Wire Line
+	8475 1950 9100 1950
+Wire Wire Line
+	7525 2050 8475 2050
+Wire Wire Line
+	8475 2375 8475 2050
+Connection ~ 8475 2050
+Wire Wire Line
+	8475 2050 9100 2050
+Wire Wire Line
+	8275 2375 8275 2250
+Connection ~ 8275 2250
+Wire Wire Line
+	8275 2250 9100 2250
+$Comp
+L power:GND #PWR0132
+U 1 1 5DA3AF3A
+P 9050 3000
+F 0 "#PWR0132" H 9050 2750 50  0001 C CNN
+F 1 "GND" H 9055 2827 50  0000 C CNN
+F 2 "" H 9050 3000 50  0001 C CNN
+F 3 "" H 9050 3000 50  0001 C CNN
+	1    9050 3000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9050 3000 9050 2650
+Wire Wire Line
+	9050 2550 9100 2550
+Wire Wire Line
+	9100 2650 9050 2650
+Connection ~ 9050 2650
+Wire Wire Line
+	9050 2650 9050 2550
+$Comp
+L S_Resistors:470R_0603_1 R8
+U 1 1 5DA639C5
+P 8275 3850
+F 0 "R8" H 8275 3645 50  0000 C CNN
+F 1 "470R_0603_1" H 8275 3700 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 9175 4350 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 9585 4490 50  0001 C CNN
+F 4 "Hitano" H 9160 4700 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 8940 4595 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8845 4895 50  0001 C CNN "Vendor"
+F 7 "4687" H 8915 5005 50  0001 C CNN "VPN"
+F 8 "Active" H 8755 4795 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 9075 5250 50  0001 C CNN "Description"
+F 10 "470" H 8275 3736 50  0000 C CNN "RValue"
+	1    8275 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L S_Resistors:470R_0603_1 R9
+U 1 1 5DA639D6
+P 8275 3950
+F 0 "R9" H 8275 3775 50  0000 C CNN
+F 1 "470R_0603_1" H 8275 3800 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 9175 4450 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 9585 4590 50  0001 C CNN
+F 4 "Hitano" H 9160 4800 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 8940 4695 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 8845 4995 50  0001 C CNN "Vendor"
+F 7 "4687" H 8915 5105 50  0001 C CNN "VPN"
+F 8 "Active" H 8755 4895 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 9075 5350 50  0001 C CNN "Description"
+F 10 "470" H 8275 3850 50  0000 C CNN "RValue"
+	1    8275 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 2750 8950 3950
+Wire Wire Line
+	8950 2750 9100 2750
+Wire Wire Line
+	8875 3850 8875 2450
+Wire Wire Line
+	8875 2450 9100 2450
+$Comp
+L S_Resistors:SB_0603_1 SB2
+U 1 1 5DA8039B
+P 7975 3850
+F 0 "SB2" H 7975 3964 50  0000 C CNN
+F 1 "SB_0603_1" H 7975 3700 50  0001 C CNN
+F 2 "PCB_Footprints:SB_0603_TRIANGLE" H 8875 4350 50  0001 C CNN
+F 3 "" H 9285 4490 50  0001 C CNN
+F 4 "Active" H 8455 4795 50  0001 C CNN "Status"
+F 5 "SMD SOLDER BRIDGE TRIANGLE" H 8775 5250 50  0001 C CNN "Description"
+	1    7975 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Resistors:SB_0603_1 SB3
+U 1 1 5DA80C18
+P 7975 3950
+F 0 "SB3" H 7975 3850 50  0000 C CNN
+F 1 "SB_0603_1" H 7975 3800 50  0001 C CNN
+F 2 "PCB_Footprints:SB_0603_TRIANGLE" H 8875 4450 50  0001 C CNN
+F 3 "" H 9285 4590 50  0001 C CNN
+F 4 "Active" H 8455 4895 50  0001 C CNN "Status"
+F 5 "SMD SOLDER BRIDGE TRIANGLE" H 8775 5350 50  0001 C CNN "Description"
+	1    7975 3950
+	1    0    0    -1  
+$EndComp
+Text Label 8450 3950 0    50   ~ 0
+LED_ETH_Y
+Text Label 8450 3850 0    50   ~ 0
+LED_ETH_G
+Wire Wire Line
+	8425 3850 8875 3850
+Wire Wire Line
+	8425 3950 8950 3950
+$Comp
+L S_Switches:TACTM-24N-F SW1
+U 1 1 5DAAD2B5
+P 1000 4825
+F 0 "SW1" H 1000 5110 50  0000 C CNN
+F 1 "TACTM-24N-F" H 1000 5019 50  0000 C CNN
+F 2 "PCB_Footprints:PUSHB_TL3300DF260Q" H 2100 5375 50  0001 C CNN
+F 3 "https://en.ninigi.com/product/tactm-24n-f/pdf" H 2200 5475 50  0001 C CNN
+F 4 "NINIGI" H 1400 5575 50  0001 C CNN "Manufacturer"
+F 5 "TACTM-24N-F" H 1550 5675 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 1500 5775 50  0001 C CNN "Vendor"
+F 7 "00-00041368" H 1550 5875 50  0001 C CNN "VPN"
+F 8 "Active" H 1400 5975 50  0001 C CNN "Status"
+F 9 "SWITCH TACTILE SPST-NO 0.05A 12V" H 1550 6075 50  0001 C CNN "Description"
+	1    1000 4825
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Capacitors:100n_0603_1 C1
+U 1 1 5DAAD2D7
+P 1400 5025
+F 0 "C1" H 1515 5071 50  0000 L CNN
+F 1 "100n_0603_1" H 1800 4975 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 2300 5525 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 2710 5665 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2285 5875 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104KB8NNNC" H 2065 5770 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 1970 6070 50  0001 C CNN "Vendor"
+F 7 "42147" H 2040 6180 50  0001 C CNN "VPN"
+F 8 "Active" H 1880 5970 50  0001 C CNN "Status"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 2200 6425 50  0001 C CNN "Description"
+F 10 "100n" H 1515 4980 50  0000 L CNN "RValue"
+	1    1400 5025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4875 1400 4825
+Wire Wire Line
+	1200 4825 1250 4825
+Connection ~ 1400 4825
+Wire Wire Line
+	1200 4925 1250 4925
+Wire Wire Line
+	1250 4925 1250 4825
+Connection ~ 1250 4825
+Wire Wire Line
+	1250 4825 1400 4825
+Wire Wire Line
+	800  4825 750  4825
+Wire Wire Line
+	750  4825 750  4925
+Wire Wire Line
+	800  4925 750  4925
+Connection ~ 750  4925
+Wire Wire Line
+	750  4925 750  5275
+$Comp
+L power:GND #PWR0133
+U 1 1 5DAAD2ED
+P 750 5275
+F 0 "#PWR0133" H 750 5025 50  0001 C CNN
+F 1 "GND" H 755 5102 50  0000 C CNN
+F 2 "" H 750 5275 50  0001 C CNN
+F 3 "" H 750 5275 50  0001 C CNN
+	1    750  5275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0134
+U 1 1 5DAAD2F7
+P 1400 5275
+F 0 "#PWR0134" H 1400 5025 50  0001 C CNN
+F 1 "GND" H 1405 5102 50  0000 C CNN
+F 2 "" H 1400 5275 50  0001 C CNN
+F 3 "" H 1400 5275 50  0001 C CNN
+	1    1400 5275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 5275 1400 5175
+$Comp
+L power:+3.3V #PWR0135
+U 1 1 5DAAD302
+P 1400 4325
+F 0 "#PWR0135" H 1400 4175 50  0001 C CNN
+F 1 "+3.3V" H 1415 4498 50  0000 C CNN
+F 2 "" H 1400 4325 50  0001 C CNN
+F 3 "" H 1400 4325 50  0001 C CNN
+	1    1400 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1400 4325 1400 4375
+Wire Wire Line
+	1400 4825 1400 4675
+Wire Wire Line
+	1400 4825 1600 4825
+$Comp
+L S_Resistors:SB_0603_1 SB1
+U 1 1 5DAB5CD5
+P 1750 4825
+F 0 "SB1" H 1750 4939 50  0000 C CNN
+F 1 "SB_0603_1" H 1750 4675 50  0001 C CNN
+F 2 "PCB_Footprints:SB_0603_TRIANGLE" H 2650 5325 50  0001 C CNN
+F 3 "" H 3060 5465 50  0001 C CNN
+F 4 "Active" H 2230 5770 50  0001 C CNN "Status"
+F 5 "SMD SOLDER BRIDGE TRIANGLE" H 2550 6225 50  0001 C CNN "Description"
+	1    1750 4825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 4825 2225 4825
+Text Label 3925 3175 0    50   ~ 0
+GPIO_11
+Text Label 3925 3275 0    50   ~ 0
+GPIO_17
+Text Label 3925 3375 0    50   ~ 0
+GPIO_16
+Text Label 3925 3475 0    50   ~ 0
+GPIO_15
+Text Label 3925 3575 0    50   ~ 0
+GPIO_19
+Text Label 3925 3675 0    50   ~ 0
+GPIO_18
+Text Label 3925 3875 0    50   ~ 0
+GPIO_9
+Text Label 3925 3975 0    50   ~ 0
+GPIO_8
+Text Label 3925 4075 0    50   ~ 0
+GPIO_7
+Text Label 3925 4175 0    50   ~ 0
+GPIO_6
+Text Label 3925 4375 0    50   ~ 0
+GPIO_3
+Text Label 3925 4475 0    50   ~ 0
+GPIO_2
+Text Label 3925 4575 0    50   ~ 0
+GPIO_1
+Text Label 3925 4675 0    50   ~ 0
+GPIO_0
+Text Label 6525 4975 2    50   ~ 0
+GPIO_5
+Text Label 6525 4875 2    50   ~ 0
+GPIO_4
+Text Label 6525 4075 2    50   ~ 0
+GPIO_45
+Text Label 6525 4175 2    50   ~ 0
+GPIO_46
+Text Label 6525 3375 2    50   ~ 0
+RST
+Wire Wire Line
+	3850 4975 4525 4975
+Text Label 3850 4975 0    50   ~ 0
+OMEGA_USB_D_P
+Wire Wire Line
+	5925 4975 6525 4975
+Wire Wire Line
+	3925 4675 4525 4675
+Wire Wire Line
+	3925 4575 4525 4575
+Wire Wire Line
+	3925 4475 4525 4475
+Wire Wire Line
+	3925 4375 4525 4375
+Wire Wire Line
+	3925 4175 4525 4175
+Wire Wire Line
+	3925 4075 4525 4075
+Wire Wire Line
+	3925 3975 4525 3975
+Wire Wire Line
+	3925 3875 4525 3875
+Wire Wire Line
+	3925 3675 4525 3675
+Wire Wire Line
+	3925 3575 4525 3575
+Wire Wire Line
+	3925 3475 4525 3475
+Wire Wire Line
+	3925 3375 4525 3375
+Wire Wire Line
+	3925 3275 4525 3275
+Wire Wire Line
+	3925 3175 4525 3175
+Wire Wire Line
+	5925 4875 6525 4875
+Wire Wire Line
+	5925 4175 6525 4175
+Wire Wire Line
+	5925 4075 6525 4075
+Wire Wire Line
+	5925 3375 6525 3375
+$Comp
+L power:+3.3V #PWR0136
+U 1 1 5D6CA8C9
+P 850 2850
+F 0 "#PWR0136" H 850 2700 50  0001 C CNN
+F 1 "+3.3V" H 865 3023 50  0000 C CNN
+F 2 "" H 850 2850 50  0001 C CNN
+F 3 "" H 850 2850 50  0001 C CNN
+	1    850  2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	850  3150 950  3150
+Wire Wire Line
+	850  2850 850  3150
+Connection ~ 950  3150
+Wire Wire Line
+	1950 3625 1950 3500
+$Comp
+L S_Resistors:470R_0603_1 R2
+U 1 1 5DC492B6
+P 1725 3150
+F 0 "R2" H 1725 2945 50  0000 C CNN
+F 1 "470R_0603_1" H 1725 3000 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 2625 3650 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 3035 3790 50  0001 C CNN
+F 4 "Hitano" H 2610 4000 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 2390 3895 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 2295 4195 50  0001 C CNN "Vendor"
+F 7 "4687" H 2365 4305 50  0001 C CNN "VPN"
+F 8 "Active" H 2205 4095 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 2525 4550 50  0001 C CNN "Description"
+F 10 "470" H 1725 3036 50  0000 C CNN "RValue"
+	1    1725 3150
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1450 3150 1575 3150
+Wire Wire Line
+	1875 3150 1950 3150
+Wire Wire Line
+	1950 3150 1950 3200
+Connection ~ 1950 3150
+Wire Wire Line
+	1950 3150 2350 3150
+$Comp
+L S_Resistors:10K_0603_1 R1
+U 1 1 5DC9A4DE
+P 1400 4525
+F 0 "R1" V 1354 4593 50  0000 L CNN
+F 1 "10K_0603_1" H 1400 4375 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 2300 5025 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/komechip-eesistor-datasheet.pdf" H 2710 5165 50  0001 C CNN
+F 4 "Hitano" H 2285 5375 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-10KR" H 2065 5270 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 1970 5570 50  0001 C CNN "Vendor"
+F 7 "8516" H 2040 5680 50  0001 C CNN "VPN"
+F 8 "Active" H 1880 5470 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 10 kOhm 100mW 50V" H 2200 5925 50  0001 C CNN "Description"
+F 10 "10k" V 1445 4593 50  0000 L CNN "RValue"
+	1    1400 4525
+	0    1    1    0   
+$EndComp
+$Comp
+L S_Resistors:10K_0603_1 R3
+U 1 1 5DC9B1F2
+P 1950 3350
+F 0 "R3" V 1904 3418 50  0000 L CNN
+F 1 "10K_0603_1" H 1950 3200 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 2850 3850 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/komechip-eesistor-datasheet.pdf" H 3260 3990 50  0001 C CNN
+F 4 "Hitano" H 2835 4200 50  0001 C CNN "Manufacturer"
+F 5 "RC0603FR-10KR" H 2615 4095 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 2520 4395 50  0001 C CNN "Vendor"
+F 7 "8516" H 2590 4505 50  0001 C CNN "VPN"
+F 8 "Active" H 2430 4295 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 10 kOhm 100mW 50V" H 2750 4750 50  0001 C CNN "Description"
+F 10 "10k" V 1995 3418 50  0000 L CNN "RValue"
+	1    1950 3350
+	0    1    1    0   
+$EndComp
+Text Label 2225 4825 2    50   ~ 0
+GPIO_11
+Text Label 7525 3850 0    50   ~ 0
+GPIO_19
+Text Label 7525 3950 0    50   ~ 0
+GPIO_18
+Wire Wire Line
+	7525 3950 7825 3950
+Wire Wire Line
+	7525 3850 7825 3850
+Wire Wire Line
+	2325 925  2375 925 
+Wire Wire Line
+	1425 1600 1450 1600
+Wire Wire Line
+	1450 1600 1450 925 
+Wire Wire Line
+	1450 925  1575 925 
+$Comp
+L S_Capacitors:10u_0603_1 C2
+U 1 1 5DD2C078
+P 1575 1200
+F 0 "C2" H 1690 1246 50  0000 L CNN
+F 1 "10u_0603_1" H 1975 1150 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 2475 1700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/06/20/CL10A106MQ8NNNC.pdf" H 2885 1840 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2460 2050 50  0001 C CNN "Manufacturer"
+F 5 "CL10A106MQ8NNNC" H 2240 1945 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 2145 2245 50  0001 C CNN "Vendor"
+F 7 "72178" H 2215 2355 50  0001 C CNN "VPN"
+F 8 "Active" H 2055 2145 50  0001 C CNN "Status"
+F 9 "CAP CER 10UF 6.3V X5R 0603" H 2375 2600 50  0001 C CNN "Description"
+F 10 "10u" H 1690 1155 50  0000 L CNN "RValue"
+	1    1575 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Capacitors:100n_0603_1 C3
+U 1 1 5DD2CF17
+P 1925 1200
+F 0 "C3" H 2040 1246 50  0000 L CNN
+F 1 "100n_0603_1" H 2325 1150 50  0001 C CNN
+F 2 "PCB_Footprints:C_0603" H 2825 1700 50  0001 C CNN
+F 3 "http://www.samsungsem.com/kr/support/product-search/mlcc/__icsFiles/afieldfile/2018/07/24/CL10B104KB8NNNC.pdf" H 3235 1840 50  0001 C CNN
+F 4 "Samsung Electro-Mechanics" H 2810 2050 50  0001 C CNN "Manufacturer"
+F 5 "CL10B104KB8NNNC" H 2590 1945 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 2495 2245 50  0001 C CNN "Vendor"
+F 7 "42147" H 2565 2355 50  0001 C CNN "VPN"
+F 8 "Active" H 2405 2145 50  0001 C CNN "Status"
+F 9 "CAP CER 0.1UF 50V X7R 0603" H 2725 2600 50  0001 C CNN "Description"
+F 10 "100n" H 2040 1155 50  0000 L CNN "RValue"
+	1    1925 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0137
+U 1 1 5DD4CEC0
+P 1575 1375
+F 0 "#PWR0137" H 1575 1125 50  0001 C CNN
+F 1 "GND" H 1580 1202 50  0000 C CNN
+F 2 "" H 1575 1375 50  0001 C CNN
+F 3 "" H 1575 1375 50  0001 C CNN
+	1    1575 1375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0138
+U 1 1 5DD4D38D
+P 1925 1375
+F 0 "#PWR0138" H 1925 1125 50  0001 C CNN
+F 1 "GND" H 1930 1202 50  0000 C CNN
+F 2 "" H 1925 1375 50  0001 C CNN
+F 3 "" H 1925 1375 50  0001 C CNN
+	1    1925 1375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1925 1375 1925 1350
+Wire Wire Line
+	1575 1350 1575 1375
+Wire Wire Line
+	1575 1050 1575 925 
+Connection ~ 1575 925 
+Wire Wire Line
+	1575 925  1925 925 
+Wire Wire Line
+	1925 1050 1925 925 
+Connection ~ 1925 925 
+Wire Wire Line
+	1925 925  2025 925 
+$Comp
+L S_Connectors:PBD-26-S_1 J3
+U 1 1 5DD873DA
+P 5925 1700
+F 0 "J3" H 5925 2564 50  0000 C CNN
+F 1 "PBD-26-S_1" H 5925 2473 50  0000 C CNN
+F 2 "PCB_Footprints:PBD-26-S_1" H 7275 2150 50  0001 C CNN
+F 3 "http://www.kosmodrom.com.ua/pdf/zl262-dg.pdf" H 8525 2350 50  0001 C CNN
+F 4 "CONNFLY" H 6725 2550 50  0001 C CNN "Manufacturer"
+F 5 "ZL262-26DG" H 6925 2450 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 6375 2750 50  0001 C CNN "Vendor"
+F 7 "00-00040664" H 6425 2850 50  0001 C CNN "VPN"
+F 8 "Active" H 6775 2650 50  0001 C CNN "Status"
+F 9 "CONN F HEADER 26POS 2.54mm" H 6725 3000 50  0001 C CNN "Description"
+	1    5925 1700
+	1    0    0    -1  
+$EndComp
+Text Label 6825 1900 2    50   ~ 0
+GPIO_11
+Text Label 5025 1300 0    50   ~ 0
+GPIO_17
+Text Label 5025 1400 0    50   ~ 0
+GPIO_16
+Text Label 5025 1500 0    50   ~ 0
+GPIO_15
+Text Label 5025 1600 0    50   ~ 0
+GPIO_19
+Text Label 5025 1700 0    50   ~ 0
+GPIO_18
+Text Label 5025 1800 0    50   ~ 0
+GPIO_9
+Text Label 5025 1900 0    50   ~ 0
+GPIO_8
+Text Label 5025 2000 0    50   ~ 0
+GPIO_7
+Text Label 5025 2100 0    50   ~ 0
+GPIO_6
+Text Label 5025 2200 0    50   ~ 0
+GPIO_3
+Text Label 5025 2300 0    50   ~ 0
+GPIO_2
+Wire Wire Line
+	5025 2300 5625 2300
+Wire Wire Line
+	5025 2200 5625 2200
+Wire Wire Line
+	5025 2100 5625 2100
+Wire Wire Line
+	5025 2000 5625 2000
+Wire Wire Line
+	5025 1900 5625 1900
+Wire Wire Line
+	5025 1800 5625 1800
+Wire Wire Line
+	5025 1700 5625 1700
+Wire Wire Line
+	5025 1600 5625 1600
+Wire Wire Line
+	5025 1500 5625 1500
+Wire Wire Line
+	5025 1400 5625 1400
+Wire Wire Line
+	5025 1300 5625 1300
+Wire Wire Line
+	6825 1900 6225 1900
+Text Label 6825 2100 2    50   ~ 0
+GPIO_5
+Text Label 6825 2000 2    50   ~ 0
+GPIO_4
+Wire Wire Line
+	6225 2100 6825 2100
+Wire Wire Line
+	6225 2000 6825 2000
+Wire Wire Line
+	6225 1600 6900 1600
+Wire Wire Line
+	6225 1500 6900 1500
+Text Label 6900 1600 2    50   ~ 0
+OMEGA_UART_TX
+Text Label 6900 1500 2    50   ~ 0
+OMEGA_UART_RX
+Wire Wire Line
+	6225 1400 6825 1400
+Text Label 6825 1400 2    50   ~ 0
+FW_RST
+Text Label 6825 1700 2    50   ~ 0
+GPIO_45
+Text Label 6825 1800 2    50   ~ 0
+GPIO_46
+Text Label 6825 1300 2    50   ~ 0
+RST
+Wire Wire Line
+	6225 1800 6825 1800
+Wire Wire Line
+	6225 1700 6825 1700
+Wire Wire Line
+	6225 1300 6825 1300
+$Comp
+L power:+3.3V #PWR0139
+U 1 1 5DE5D773
+P 6325 1050
+F 0 "#PWR0139" H 6325 900 50  0001 C CNN
+F 1 "+3.3V" H 6300 1225 50  0000 C CNN
+F 2 "" H 6325 1050 50  0001 C CNN
+F 3 "" H 6325 1050 50  0001 C CNN
+	1    6325 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0140
+U 1 1 5DE6B68E
+P 6325 1200
+F 0 "#PWR0140" H 6325 950 50  0001 C CNN
+F 1 "GND" H 6325 1025 50  0000 C CNN
+F 2 "" H 6325 1200 50  0001 C CNN
+F 3 "" H 6325 1200 50  0001 C CNN
+	1    6325 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6325 1200 6225 1200
+$Comp
+L power:+5V #PWR0141
+U 1 1 5DE87615
+P 5525 1050
+F 0 "#PWR0141" H 5525 900 50  0001 C CNN
+F 1 "+5V" H 5540 1223 50  0000 C CNN
+F 2 "" H 5525 1050 50  0001 C CNN
+F 3 "" H 5525 1050 50  0001 C CNN
+	1    5525 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6825 2300 6225 2300
+Wire Wire Line
+	6825 2200 6225 2200
+Text Label 6825 2200 2    50   ~ 0
+GPIO_0
+Text Label 6825 2300 2    50   ~ 0
+GPIO_1
+$Comp
+L power:GND #PWR0142
+U 1 1 5DECE8BB
+P 5525 1200
+F 0 "#PWR0142" H 5525 950 50  0001 C CNN
+F 1 "GND" H 5525 1075 50  0000 C CNN
+F 2 "" H 5525 1200 50  0001 C CNN
+F 3 "" H 5525 1200 50  0001 C CNN
+	1    5525 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5525 1200 5625 1200
+Wire Wire Line
+	5525 1050 5525 1100
+Wire Wire Line
+	5525 1100 5625 1100
+Wire Wire Line
+	6225 1100 6325 1100
+Wire Wire Line
+	6325 1100 6325 1050
+Text Label 1625 6750 0    50   ~ 0
+D_N
+Text Label 1625 7350 0    50   ~ 0
+D_P
+Text Label 3025 6750 0    50   ~ 0
+UD_N
+Text Label 3025 7350 0    50   ~ 0
+UD_P
+Wire Notes Line
+	7325 600  7325 4225
+Wire Notes Line
+	7325 4225 11050 4225
+Wire Notes Line
+	11050 4225 11050 600 
+Wire Notes Line
+	11050 600  7325 600 
+NoConn ~ 10900 2650
+Wire Notes Line
+	625  2475 625  600 
+Wire Notes Line
+	625  600  4625 600 
+Wire Notes Line
+	4625 600  4625 2475
+Wire Notes Line
+	4625 2475 625  2475
+Wire Notes Line
+	4750 2475 4750 600 
+Wire Notes Line
+	4750 600  7175 600 
+Wire Notes Line
+	7175 600  7175 2475
+Wire Notes Line
+	7175 2475 4750 2475
+Wire Notes Line
+	7325 4600 7325 6175
+Wire Notes Line
+	7325 6175 9950 6175
+Wire Notes Line
+	9950 6175 9950 4600
+Wire Notes Line
+	9950 4600 7325 4600
+Wire Notes Line
+	10075 4600 10075 6175
+Wire Notes Line
+	10075 6175 11050 6175
+Wire Notes Line
+	11050 6175 11050 4600
+Wire Notes Line
+	11050 4600 10075 4600
+Wire Notes Line
+	625  3825 2725 3825
+Wire Notes Line
+	2725 3825 2725 2550
+Wire Notes Line
+	2725 2550 625  2550
+Wire Notes Line
+	625  2550 625  3825
+Wire Notes Line
+	2350 5525 2350 4075
+Wire Notes Line
+	2350 4075 625  4075
+Wire Notes Line
+	625  4075 625  5525
+$Comp
+L S_Crystals:KX-7T-12MHz Y1
+U 1 1 5D7802CB
+P 3275 6050
+F 0 "Y1" V 3275 6200 50  0000 C CNN
+F 1 "KX-7T-12MHz" V 3275 5675 50  0000 C CNN
+F 2 "PCB_Footprints:KX-7T" H 4175 6550 50  0001 C CNN
+F 3 "https://www.geyer-electronic.com/fileadmin/user_upload/frequenz/quartz/KX-7/GEYER-KX-7.pdf" H 5425 6700 50  0001 C CNN
+F 4 "GEYER" H 3925 6900 50  0001 C CNN "Manufacturer"
+F 5 "12.88662" H 4025 6800 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 3725 7100 50  0001 C CNN "Vendor"
+F 7 "00-00037484" H 3775 7200 50  0001 C CNN "VPN"
+F 8 "Active" H 3725 7000 50  0001 C CNN "Status"
+F 9 "Quartz Crystal SMD 12.0 MHz" H 4075 7350 50  0001 C CNN "Description"
+	1    3275 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR01
+U 1 1 5E22314B
+P 2750 5875
+F 0 "#PWR01" H 2750 5625 50  0001 C CNN
+F 1 "GND" V 2750 5675 50  0000 C CNN
+F 2 "" H 2750 5875 50  0001 C CNN
+F 3 "" H 2750 5875 50  0001 C CNN
+	1    2750 5875
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR02
+U 1 1 5E275D91
+P 2750 6250
+F 0 "#PWR02" H 2750 6000 50  0001 C CNN
+F 1 "GND" V 2750 6050 50  0000 C CNN
+F 2 "" H 2750 6250 50  0001 C CNN
+F 3 "" H 2750 6250 50  0001 C CNN
+	1    2750 6250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3700 6000 3550 6000
+Wire Wire Line
+	3550 6000 3550 5875
+Wire Wire Line
+	3550 5875 3275 5875
+Wire Wire Line
+	3700 6100 3550 6100
+Wire Wire Line
+	3550 6100 3550 6250
+Wire Wire Line
+	3550 6250 3275 6250
+Wire Wire Line
+	3275 6200 3275 6250
+Connection ~ 3275 6250
+Wire Wire Line
+	3275 6250 3100 6250
+Wire Wire Line
+	3275 5900 3275 5875
+Connection ~ 3275 5875
+Wire Wire Line
+	3275 5875 3100 5875
+Wire Notes Line
+	625  5600 625  7700
+Wire Notes Line
+	625  7700 6875 7700
+Wire Notes Line
+	6875 7700 6875 5600
+Wire Notes Line
+	6875 5600 625  5600
+Wire Notes Line
+	3600 5525 7175 5525
+Wire Notes Line
+	7175 5525 7175 2550
+Wire Notes Line
+	7175 2550 3600 2550
+Wire Notes Line
+	3600 2550 3600 5525
+Text Notes 2300 2700 0    79   ~ 16
+RESET
+Text Notes 2300 4350 2    79   ~ 16
+USER\nBUTTON
+Text Notes 6125 2700 0    79   ~ 16
+OMEGA2 MODULE
+Text Notes 4200 750  0    79   ~ 16
+USB A
+Text Notes 6050 750  0    79   ~ 16
+EXPANSION PINS
+Text Notes 10400 750  0    79   ~ 16
+ETHERNET
+Text Notes 6200 5750 0    79   ~ 16
+USB-UART
+Text Notes 8925 4750 0    79   ~ 16
+3.3V CONVERTER
+Text Notes 11025 4875 2    79   ~ 16
+POWER\nLED
+Text Notes 6300 6625 0    50   ~ 0
+GND
+Text Notes 6300 6925 0    50   ~ 0
+RX
+Text Notes 6300 7025 0    50   ~ 0
+TX
+Text Notes 4775 2225 0    50   ~ 0
+CLK
+Text Notes 4775 2025 0    50   ~ 0
+CLK
+Text Notes 4775 1925 0    50   ~ 0
+MOSI
+Text Notes 4775 1825 0    50   ~ 0
+MISO
+Text Notes 4775 2125 0    50   ~ 0
+CS1
+Text Notes 4775 2325 0    50   ~ 0
+WS
+Text Notes 6975 2325 0    50   ~ 0
+SDO
+Text Notes 6975 2225 0    50   ~ 0
+SDI
+Text Notes 6975 2125 0    50   ~ 0
+SDA
+Text Notes 6975 2025 0    50   ~ 0
+SCL
+Text Notes 6975 1625 0    50   ~ 0
+TX0
+Text Notes 6975 1525 0    50   ~ 0
+RX0
+Text Notes 6975 1825 0    50   ~ 0
+RX1
+Text Notes 6975 1725 0    50   ~ 0
+TX1
+Wire Notes Line
+	4975 2125 4975 1775
+Wire Notes Line
+	4975 1775 5000 1775
+Wire Notes Line
+	5000 2175 4975 2175
+Wire Notes Line
+	4975 2175 4975 2325
+Wire Notes Line
+	4975 2325 5000 2325
+Wire Notes Line
+	4950 1950 4975 1950
+Wire Notes Line
+	4950 2250 4975 2250
+Wire Notes Line
+	6850 2175 6875 2175
+Wire Notes Line
+	6875 2175 6875 2325
+Wire Notes Line
+	6875 2325 6850 2325
+Wire Notes Line
+	6875 2250 6900 2250
+Wire Notes Line
+	6875 2125 6875 1975
+Wire Notes Line
+	6875 1975 6850 1975
+Wire Notes Line
+	6875 2050 6900 2050
+Wire Notes Line
+	6850 1825 6875 1825
+Wire Notes Line
+	6875 1825 6875 1675
+Wire Notes Line
+	6875 1675 6850 1675
+Wire Notes Line
+	6875 1750 6900 1750
+Wire Notes Line
+	6950 1625 6950 1475
+Wire Notes Line
+	6950 1475 6925 1475
+Wire Notes Line
+	6950 1550 6975 1550
+Wire Notes Line
+	6850 2125 7125 2125
+Wire Notes Line
+	4775 2125 5000 2125
+Wire Notes Line
+	6925 1625 7125 1625
+$Comp
+L S_LED:FYLS-0603GD D4
+U 1 1 5E6D8D5B
+P 2925 5125
+F 0 "D4" H 3025 5300 50  0000 L CNN
+F 1 "FYLS-0603GD" H 2650 5025 50  0000 L CNN
+F 2 "PCB_Footprints:LED_0603_1" H 3825 5625 50  0001 C CNN
+F 3 "http://www.foryard-led.ru/pdf/fyls-0603gd.pdf" H 4235 5765 50  0001 C CNN
+F 4 "FORYARD OPTOELECTRONICS" H 3810 5975 50  0001 C CNN "Manufacturer"
+F 5 "FYLS-0603GD" H 3590 5870 50  0001 C CNN "MPN"
+F 6 "Kosmodrom" H 3495 6170 50  0001 C CNN "Vendor"
+F 7 "00-00055963" H 3565 6280 50  0001 C CNN "VPN"
+F 8 "Active" H 3405 6070 50  0001 C CNN "Status"
+F 9 "LED Yellow Green 0603 30mA" H 3725 6525 50  0001 C CNN "Description"
+	1    2925 5125
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Resistors:470R_0603_1 R13
+U 1 1 5E6D8D6C
+P 2625 4800
+F 0 "R13" V 2579 4868 50  0000 L CNN
+F 1 "470R_0603_1" H 2625 4650 50  0001 C CNN
+F 2 "PCB_Footprints:R_0603" H 3525 5300 50  0001 C CNN
+F 3 "https://www.rcscomponents.kiev.ua/datasheets/rc_series_hitano-datasheet.pdf" H 3935 5440 50  0001 C CNN
+F 4 "Hitano" H 3510 5650 50  0001 C CNN "Manufacturer"
+F 5 "RC0603JR-470R" H 3290 5545 50  0001 C CNN "MPN"
+F 6 "RCScomponents" H 3195 5845 50  0001 C CNN "Vendor"
+F 7 "4687" H 3265 5955 50  0001 C CNN "VPN"
+F 8 "Active" H 3105 5745 50  0001 C CNN "Status"
+F 9 "SMD RES 0603 470 Ohm 100mW 50V" H 3425 6200 50  0001 C CNN "Description"
+F 10 "470" V 2670 4868 50  0000 L CNN "RValue"
+	1    2625 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR03
+U 1 1 5E6D8D78
+P 3225 5225
+F 0 "#PWR03" H 3225 4975 50  0001 C CNN
+F 1 "GND" H 3230 5052 50  0000 C CNN
+F 2 "" H 3225 5225 50  0001 C CNN
+F 3 "" H 3225 5225 50  0001 C CNN
+	1    3225 5225
+	1    0    0    -1  
+$EndComp
+$Comp
+L S_Resistors:SB_0603_1 SB4
+U 1 1 5E6FAAC7
+P 2850 4500
+F 0 "SB4" H 2850 4614 50  0000 C CNN
+F 1 "SB_0603_1" H 2850 4350 50  0001 C CNN
+F 2 "PCB_Footprints:SB_0603_TRIANGLE" H 3750 5000 50  0001 C CNN
+F 3 "" H 4160 5140 50  0001 C CNN
+F 4 "Active" H 3330 5445 50  0001 C CNN "Status"
+F 5 "SMD SOLDER BRIDGE TRIANGLE" H 3650 5900 50  0001 C CNN "Description"
+	1    2850 4500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	625  5525 2350 5525
+Wire Wire Line
+	3125 5125 3225 5125
+Wire Wire Line
+	3225 5125 3225 5225
+Wire Wire Line
+	3000 4500 3325 4500
+Text Label 3325 4500 2    50   ~ 0
+GPIO_17
+Wire Wire Line
+	2625 5125 2625 4950
+Wire Wire Line
+	2625 4650 2625 4500
+Wire Wire Line
+	2625 4500 2700 4500
+Wire Wire Line
+	2625 5125 2725 5125
+Wire Notes Line
+	2475 5525 3475 5525
+Wire Notes Line
+	3475 5525 3475 4075
+Wire Notes Line
+	3475 4075 2475 4075
+Wire Notes Line
+	2475 4075 2475 5525
+Text Notes 3450 4350 2    79   ~ 16
+USER\nLED
+$Comp
+L dk_USB-DVI-HDMI-Connectors:10118194-0001LF J1
+U 1 1 5D6FEE30
+P 925 6850
+F 0 "J1" H 1000 7500 60  0000 C CNN
+F 1 "10118194-0001LF" V 675 6850 60  0000 C CNN
+F 2 "digikey-footprints:USB_Micro_B_Female_10118194-0001LF" H 1125 7050 60  0001 L CNN
+F 3 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1125 7150 60  0001 L CNN
+F 4 "609-4618-1-ND" H 1125 7250 60  0001 L CNN "Digi-Key_PN"
+F 5 "10118194-0001LF" H 1125 7350 60  0001 L CNN "MPN"
+F 6 "Connectors, Interconnects" H 1125 7450 60  0001 L CNN "Category"
+F 7 "USB, DVI, HDMI Connectors" H 1125 7550 60  0001 L CNN "Family"
+F 8 "http://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118194.pdf" H 1125 7650 60  0001 L CNN "DK_Datasheet_Link"
+F 9 "/product-detail/en/amphenol-icc-fci/10118194-0001LF/609-4618-1-ND/2785382" H 1125 7750 60  0001 L CNN "DK_Detail_Page"
+F 10 "CONN RCPT USB2.0 MICRO B SMD R/A" H 1125 7850 60  0001 L CNN "Description"
+F 11 "Amphenol ICC (FCI)" H 1125 7950 60  0001 L CNN "Manufacturer"
+F 12 "Active" H 1125 8050 60  0001 L CNN "Status"
+	1    925  6850
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
